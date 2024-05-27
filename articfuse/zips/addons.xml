@@ -361,6 +361,52 @@
     </extension>
 </addon>
 
+<addon id="plugin.program.tvbanwizard" name="[B][COLOR azure]TVBAN[/COLOR] [COLOR tan]WIZARD[/COLOR][/B]" version="27.5.24" provider-name="[B][COLOR azure]andTVban, JoseAnd[/COLOR][/B]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">
+	[COLOR azure]TVBAN[/COLOR] [COLOR cyan]MATNEXOM[/COLOR],
+	tu [COLOR azure]tvban[COLOR tan]Wizard[/COLOR] para [COLOR teal]KODI[/COLOR]
+	    </summary>
+    	<description lang="en">
+[COLOR lime][B]CREDITOS:[/COLOR][/B]
+[COLOR white][B]• Developers:[/B]      [COLOR darkorange]JoseAnd[/COLOR]
+[COLOR white][B]• Testers:[/B]             [COLOR darkorange]JoseAnd, [COLOR tan]AndTVban[/COLOR]
+[COLOR white][B]• Telegram:[/B]         [COLOR dodgerblue]t.me/+andTvban[/COLOR]</description>
+        <disclaimer>[COLOR tan][B]Está Prohibida su distribución, cedido por su autor, editado por AndTVban y Protegidos por los Derechos del Autor y Editor.[/B][/COLOR]</disclaimer>
+		<platform>all</platform>
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://andtvban.github.io/tvban/</source>
+		<news>
+• [COLOR darkorange]12/04/2024[/COLOR]
+- Nuevo Logo
+- Inciada la compatibilidad con Versiones de Kodi.
+- Nuevo Instalador a la versión  14.4.24
+- Añadido nuevos arreglos:
+¤ Limpieza de Miniaturas.
+¤ Color en Notificaciones.
+</news>
+	<assets>
+	    <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+	</assets>
+	<license>GNU GENERAL PUBLIC LICENSE Version 21</license>
+		<email></email>
+		<website></website>
+    </extension>
+</addon>
+
 <addon id="plugin.program.tvbanwizard" name="[B][COLOR azure]TVBAN[/COLOR] [COLOR tan]WIZARD[/COLOR][/B]" version="19.4.24" provider-name="[B][COLOR azure]andTVban, JoseAnd[/COLOR][/B]">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
@@ -1455,7 +1501,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
             <datadir zip="true">https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/nexus/zips/</datadir>
         </dir>
         <dir minversion="20.9.9" maxversion="21.9.9">
-            <info compressed="false">https://raw.githubusercontent.com/andtvban/repositorio.matnexon/master/articfuse/zips/addons.xml</info>
+            <info compressed="false">https://raw.githubusercontent.com/andtvban/repositorio.matnexon/main/articfuse/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/andtvban/repositorio.matnexon/master/articfuse/zips/addons.xml</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/andtvban/repositorio.matnexon/master/articfuse/zips/</datadir>
         </dir>
@@ -1463,10 +1509,10 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR azure]Repo [COLOR green]mat[COLOR blueviolet]nex[COLOR cyan]om[/COLOR]</summary>
-        <description>Repositorio de addons para [COLOR azure]TVBAN[/COLOR].
+        <description>[COLOR azure]Repositorio de addons para [COLOR cyan]TVBAN[/COLOR].
 [B][COLOR lime]CREDITOS:
 [COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseaTeba[/COLOR]</description>
-        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons externos válidos para [COLOR steelblue]KODI 20 [COLOR blueviolet]NEXUS, [COLOR steelblue]KODI 21 [COLOR deepskyblue]OMEGA [/COLOR]</disclaimer>
+        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons externos, válidos para [COLOR steelblue]KODI 20 [COLOR blueviolet]NEXUS, [COLOR steelblue]KODI 21 [COLOR deepskyblue]OMEGA [/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
