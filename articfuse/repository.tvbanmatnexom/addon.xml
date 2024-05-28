@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.tvbanmatnexom" name="[B][COLOR azure]Repo [COLOR green]mat[COLOR blueviolet]nex[COLOR cyan]om[/COLOR][/B]" version="27.5.24" provider-name="andTVban, JoseaTeba">
+<addon id="repository.tvbanmatnexom" name="[B][COLOR azure]Repo [COLOR green]mat[COLOR blueviolet]nex[COLOR cyan]om[/COLOR][/B]" version="28.5.24" provider-name="andTVban, JoseaTeba">
     <extension point="xbmc.addon.repository" name="[B][COLOR azure]Repo [COLOR green]mat[COLOR blueviolet]nex[COLOR cyan]om[/COLOR][/B]">
 		<dir minversion="19.9.9" maxversion="20.9.9">
             <info compressed="false">https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/nexus/zips/addons.xml</info>
@@ -7,9 +7,9 @@
             <datadir zip="true">https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/nexus/zips/</datadir>
         </dir> 
         <dir minversion="20.9.9" maxversion="21.9.9"> 
-            <info compressed="false">https://raw.githubusercontent.com/andtvban/repositorio.matnexon/main/articfuse/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/andtvban/repositorio.matnexon/master/articfuse/zips/addons.xml</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/andtvban/repositorio.matnexon/master/articfuse/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/andtvban/repositorio.matnexom/master/articfuse/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/andtvban/repositorio.matnexom/master/articfuse/zips/addons.xml</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/andtvban/repositorio.matnexom/master/articfuse/zips/</datadir>
         </dir>	
 		    </extension>
 			
