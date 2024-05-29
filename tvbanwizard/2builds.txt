@@ -1,5 +1,5 @@
-name="TVbanAmillans"
-version="1.0"
+name="TVban Amillans"
+version="2.0"
 url="https://github.com/andtvban/repositorio.matnexom/releases/download/1/aftvbanamillian.zip"
 minor="http://"
 gui="http://"
